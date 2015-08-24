@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "trying to rename the current tab to $@"
+echo -ne "\033]0;"$@"\007"
+echo "finished"
