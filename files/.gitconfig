@@ -1,0 +1,17 @@
+[user]
+	name = John Kamenik
+	email = jkamenik@gmail.com
+	signingkey = 0x11A8A6FB
+[color]
+	ui = true
+[mergetool]
+	keepBackup = true
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	conflicted = !git status | grep 'both modified' | awk '{print $3}' | xargs mate -w
+	df = diff
+	st = status
+[push]
+	default = simple
